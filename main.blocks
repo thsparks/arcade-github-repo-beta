@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="l~PVm.xO|5:Ii2UC~SOZ" x="0" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="4WjX::cleg5tC*v`yb^a">mySprite</variable><variable type="KIND_SpriteKind" id="uEY9#J)3:#[uOlMn_4ef">Player</variable><variable type="KIND_SpriteKind" id=";LVgrs5B`(3nh5[SC?C+">Projectile</variable><variable type="KIND_SpriteKind" id="ReJBpZNLjGY|12={R97d">Food</variable><variable type="KIND_SpriteKind" id="~nlz+3}pN@c;?p+`Z3x4">Enemy</variable></variables><block type="pxt-on-start" id="l~PVm.xO|5:Ii2UC~SOZ" x="48" y="54"><statement name="HANDLER"><block type="variables_set" id="0}ug^7=Mh,k(O+:G0HbA"><field name="VAR" id="4WjX::cleg5tC*v`yb^a">mySprite</field><value name="VALUE"><shadow type="math_number" id="L;soExV+XP+5i*!]_j}v"><field name="NUM">0</field></shadow><block type="spritescreate" id="DVKORtLC~P#H_k}9XK;F"><value name="img"><shadow type="screen_image_picker" id="JSV_BO--Z)QW-%WlZsUG"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="y|S(^Y+/KZ5;pcdc.aRL"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="gameonscore" id="+6py`N?T=!azakxdw8ff" x="79" y="334"><value name="score"><shadow type="math_number" id="Qf2N;l-7NuCXWD9~DJ@4"><field name="NUM">100</field></shadow></value><statement name="HANDLER"><block type="music_playable_play" id="B#O*^nQPcDgLf@`B9*}1"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_createSoundEffect" id="`C[f:FxgR]QiB8?AF-xQ" inline="true"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="waveShape">WaveShape.Sine</field><field name="effect">SoundExpressionEffect.None</field><field name="interpolation">InterpolationCurve.Linear</field><value name="startFrequency"><shadow type="math_number_minmax" id="]xEVkh%`y`!1Fw[df4)N"><mutation min="0" max="5000" label="StartFrequency" precision="0"></mutation><field name="SLIDER">5000</field></shadow></value><value name="endFrequency"><shadow type="math_number_minmax" id="/z7NHIvbRepzHVyugGv("><mutation min="0" max="5000" label="EndFrequency" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><value name="duration"><shadow type="math_number_minmax" id="qLy=$ZrLCA/e^%-hxHdf"><mutation min="1" max="9999" label="Duration" precision="0"></mutation><field name="SLIDER">500</field></shadow></value><value name="startVolume"><shadow type="math_number_minmax" id="m@({vOu}|C(ii15H0;Pu"><mutation min="0" max="255" label="StartVolume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><value name="endVolume"><shadow type="math_number_minmax" id="XhkWK^J[w#d.Vfq7zowb"><mutation min="0" max="255" label="EndVolume" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></shadow></value></block></statement></block></xml>
